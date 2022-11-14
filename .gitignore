@@ -15,7 +15,9 @@ api-docs/
 .vscode
 .idea
 
-package-lock.json
+# Don't include the _site because we just build it
+
+_site/
 
 # Ignore test files
 .cache

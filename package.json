@@ -1,5 +1,11 @@
 {
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
   }
 }
